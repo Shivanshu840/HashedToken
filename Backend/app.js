@@ -4,6 +4,7 @@ const folderRoutes = require('./routes/folderRoutes');
 const cors = require('cors');
 const dotenv = require('dotenv');
 dotenv.config();
+const PORT = process.env.PORT;
 
 const app = express();
 app.use(express.json());
@@ -16,6 +17,6 @@ app.use(cors());
 
 app.use('/folders', folderRoutes);
 
-app.listen(5000, () => {
-  console.log('Server started on port 5000');
+app.listen(PORT, () => {
+  console.log(`Server started on port ${PORT}`);
 });
