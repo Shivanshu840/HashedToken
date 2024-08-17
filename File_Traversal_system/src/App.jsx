@@ -1,5 +1,5 @@
 import React from 'react';
-import FolderTree from './Components/FolderTree';
+import FolderTree from './components/FolderTree';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
