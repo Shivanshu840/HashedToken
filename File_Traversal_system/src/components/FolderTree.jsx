@@ -31,7 +31,7 @@ const FolderTree = () => {
 
   const fetchFolders = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/folders/list');
+      const res = await axios.get('https://hashedtoken.onrender.com/folders/list');
       const hierarchicalFolders = buildFolderHierarchy(res.data);
       setFolders(hierarchicalFolders);
     } catch (err) {
