@@ -100,7 +100,7 @@ Description: Creates a new folder.
 
 - Navigate to the root directory of the project.
 - Start the backend and frontend as described in the installation section.
-- Open your browser and go to http://localhost:5000. use (Postman)
+- Open your browser and go to https://hashed-token.vercel.app/.
 - Start exploring the folder structure.
 
 
